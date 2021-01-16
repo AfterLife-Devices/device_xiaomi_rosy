@@ -336,7 +336,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.rosy.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    logcat.rc
 
 PRODUCT_PACKAGES += \
     init.goodix.sh \
