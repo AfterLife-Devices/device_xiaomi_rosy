@@ -407,7 +407,11 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
 # VNDK
+PRODUCT_PRODUCT_VNDK_VERSION := current
+PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
+
 PRODUCT_PACKAGES += \
+    com.android.vndk.current.on_vendor \
     vndk_package \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libstdc++_vendor
